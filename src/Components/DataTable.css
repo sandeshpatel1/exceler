@@ -1,0 +1,64 @@
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .empty-data {
+    padding: 16px;
+    font-style: italic;
+  }
+  .download-button{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .download-button:hover{
+    background-color: #0056b3;
+  }
+  .search-input {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .search-input:focus {
+    outline: none; /* Remove outline when focused */
+    border-color: #007bff; /* Change border color when focused */
+  }
+  
+  
